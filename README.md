@@ -21,14 +21,14 @@ We have data from [Yandex.Realty](https://realty.yandex.ru) containing real esta
 ### Data Statistics
  ***Clear outliers are observed in the columns: last_price, floor, rooms, area, kitchen_area, living_area, and renovation.*** For example, having 22 rooms in a residential property is rare and indicates a possible outlier, or an area of 1,000 square meters is uncommon for regular housing and is also an outlier. 
 
-![alt text](statistic.PNG) 
+![alt text](PNG/statistic.PNG) 
 
 ### Data Visualization
 #### Correlation
 The highest correlation with the target variable is observed with the number of rooms (0.47) and area of ​​the apartment (0.76).
-![alt text](Correlation.PNG) 
+![alt text](PNG/Correlation.PNG) 
 #### Visualization of data distribution
-![alt text](hh.PNG)
+![alt text](PNG/hh.PNG)
 
 ## Model Information
 
@@ -51,7 +51,7 @@ The models were developed using the scikit-learn framework, a widely used machin
 
 The performance of the models was evaluated using three metrics:
 
-![alt text](metrics.PNG)
+![alt text](PNG/metrics.PNG)
 
 ## Installation and Running Instructions virtual environment
 How to create and activate virtual environment
@@ -102,4 +102,4 @@ sudo ufw allow 7778
 python app.py
 ```
 The results:
-![alt text](file.PNG)  ![alt text](file2.PNG)
+![alt text](PNG/file.PNG)  ![alt text](PNG/file2.PNG)
