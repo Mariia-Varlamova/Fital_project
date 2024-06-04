@@ -2,7 +2,7 @@
 ## Source Data and Statistics
 
 ### Data Overview
-***Project goal***: to develop a predictive model that can estimate the value of a flats using historical data, including past flats prices and their specifications.
+***Project goal***: to develop a predictive model that can estimate the value of a flats (rent) using historical data, including past flats prices and their specifications.
 
 We have data from [Yandex.Realty](https://realty.yandex.ru) containing real estate listings for apartments in St. Petersburg and Leningrad Oblast from 2016 till the middle of August 2018. The dataset has a mix of data types, including integers, floating-point numbers, booleans, and strings. It occupies approximately 49.9 MB of memory.
 
@@ -26,7 +26,7 @@ We have data from [Yandex.Realty](https://realty.yandex.ru) containing real esta
 ### Data Visualization
 #### Correlation
 The highest correlation with the target variable is observed with the number of rooms (0.47) and area of ​​the apartment (0.76).
-![alt text](PNG/Correlation.PNG) 
+![alt text](PNG/Correlation2.PNG) 
 #### Visualization of data distribution
 ![alt text](PNG/hh.PNG)
 
@@ -51,7 +51,7 @@ The models were developed using the scikit-learn framework, a widely used machin
 
 The performance of the models was evaluated using three metrics:
 
-![alt text](PNG/metrics.PNG)
+![alt text](PNG/metrics2.PNG)
 
 ## Installation and Running Instructions virtual environment
 How to create and activate virtual environment
